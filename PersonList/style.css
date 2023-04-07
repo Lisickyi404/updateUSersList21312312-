@@ -1,0 +1,75 @@
+body{
+    background:yellow;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ul{
+    list-style:none;
+}
+
+.wrapper{
+    padding-top:100px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+}
+.userName{
+    text-align:center;
+}
+
+.userCard{
+    width:263px;
+    padding:22px 28px;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    gap:36px;
+    align-items: center;
+}
+
+.info_title, .info_value{
+    width:60px;
+}
+
+
+.userInfoList{
+    width:100%;
+}
+
+.user{
+    margin-top:9px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.usersList{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.userAva{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin: 0 auto;
+}
+
+.age_label::after{
+    content:'yo';  
+    width:5px;
+    height:5px;
+    color:red;
+    
+}
